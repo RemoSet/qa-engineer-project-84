@@ -4,8 +4,9 @@
   requirement: |
     При выборе товара выбранный товар должен попасть в корзину.
   prerequisites: |
-    
-    Открыта страница магазина https://hexlet-products-store.vercel.app/
+    OS: 22000.1219 Windows 11 Версия 21H2
+    Web browser: Google Chrome Версия 108.0.5359.100
+    Website: страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     Выбрать любой товар.
   steps:
@@ -19,7 +20,9 @@
   requirement: |
     При выборе товара выбранный товар должен попасть в корзину.
   prerequisites:
-    Открыта страница магазина https://hexlet-products-store.vercel.app/
+    OS: 22000.1219 Windows 11 Версия 21H2
+    Web browser: Google Chrome Версия 108.0.5359.100
+    Website: страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     Выбрать любой товар.
   steps:
