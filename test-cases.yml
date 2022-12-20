@@ -19,7 +19,7 @@
   requirement: |
     При выборе товара выбранный товар должен попасть в корзину.
   prerequisites:
-   Открыта страница магазина https://hexlet-products-store.vercel.app/
+    Открыта страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     Выбрать любой товар.
   steps:
@@ -36,9 +36,9 @@
     Элементы сайта должны корректно (одинаково) отображаться в двухъязычном варианте (русский и английский).
     Кнопка <Cart> (<Корзина>) должна одинаково отображаться при смене языка страницы.
   prerequisites: |
-    OS: 22000.1219 Windows 11 Версия 21H2
-    Web browser: Google Chrome Версия 108.0.5359.100
-    Website: открыта страница магазина https://hexlet-products-store.vercel.app/
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website открыта страница магазина https://hexlet-products-store.vercel.app/
   test-data: |
     Визуально сконцентрировать внимание на кнопке <Cart> (<Корзина>) .
   steps:
