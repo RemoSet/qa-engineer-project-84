@@ -17,8 +17,8 @@ bugreports:
       Кнопка добавления товара в корзину имеет разный размер при переходе с одного языка на другой.
     environment: |
       OS: 22000.1219 Windows 11 Версия 21H2
-    Web browser: Google Chrome Версия 108.0.5359.100
-    Website: https://hexlet-products-store.vercel.app/
+      Web browser: Google Chrome Версия 108.0.5359.100
+      Website: https://hexlet-products-store.vercel.app/
     steps-to-reproduce: |
       - Включить режим веб-инспектора DevTools нажав клавишу F12.
       - В режиме Select выделить кнопку <Cart> (<Корзина>).
