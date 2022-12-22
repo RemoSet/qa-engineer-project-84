@@ -20,7 +20,7 @@
   actual-result: |
     Кнопки имеют разный размер.
   severity: trivial
-  comment: /immages/ID 1
+  comment: /images/ID 1
   
 - summary: |
     ID 2 -----------------------------------bugreport---------------------------------------- ID 2
@@ -43,4 +43,4 @@
   actual-result: |
     Кнопки имеют разный размер.
   severity: trivial
-  
+  comment: /images/ID 2
