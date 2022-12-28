@@ -70,6 +70,61 @@
   status: pass  
   
 - summary: |
+    ---------------------------------------- test-case # 5-1 -----------------------------------------
+    Оптимизация сайта для скорости работы на компьютере.
+  requirement: |
+    Сайт должен быть разработан и оптимизирован для скорости работы на компьютере.
+  prerequisites: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website PageSpeed Insights https://pagespeed.web.dev
+  test-data: |
+    Страница магазина https://hexlet-products-store.vercel.app/
+  steps:
+    - Открыть страницу PageSpeed Insights https://pagespeed.web.dev
+    - Вставить в форму адрес магазина https://hexlet-products-store.vercel.app/
+    - Нажать кнопку <Анализировать>
+    - Перейти на вкладку <Компьютер>
+  expected-result: |
+    Производительность должна быть в "зеленой" зоне, не ниже 90 %.
+  status: pass  
+
+- summary: |
+    ---------------------------------------- test-case # 7-1 -----------------------------------------
+    Мобильная версия сайта.
+  requirement: |
+    Сайт должен иметь мобильную версию.
+  prerequisites: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+  test-data: |
+    Страница магазина https://m.hexlet-products-store.vercel.app
+  steps:
+    - Открыть страницу магазина https://m.hexlet-products-store.vercel.app
+  expected-result: |
+    Должна запуститься мобильная версия сайта.
+  status: fail  
+
+- summary: |
+    ---------------------------------------- test-case # 9-1 -----------------------------------------
+    Нагрузочное тестирование работы сайта на компьютере.
+  requirement: |
+    Сайт должен быть способен обрабатывать большое количество трафика.
+  prerequisites: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website Loaddy https://loaddy.com
+  test-data: |
+    Страница магазина https://hexlet-products-store.vercel.app
+  steps:
+    - Открыть страницу Loaddy https://loaddy.com
+    - Вставить в форму адрес магазина https://hexlet-products-store.vercel.app
+    - Нажать кнопку <Бесплатная проверка>
+  expected-result: |
+     Результаты теста должны быть в "зеленой" зоне.
+  status: pass  
+  
+- summary: |
     ---------------------------------------- test-case # 12-1 ----------------------------------------
     Проверка отображения кнопки  <Cart> (<Корзина>) в двухъязычном варианте (русский и английский).
   requirement: |
