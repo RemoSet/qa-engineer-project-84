@@ -1,1 +1,2 @@
-test2
+---
+  value2: *reference 
