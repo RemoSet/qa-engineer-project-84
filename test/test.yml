@@ -1,1 +1,3 @@
-test
+---
+  references:
+    value1: &reference "Don't repeat yourself!"  
