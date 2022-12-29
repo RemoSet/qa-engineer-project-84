@@ -163,6 +163,25 @@
   status: pass  
   
 - summary: |
+    ---------------------------------------- test-case # 10-1 ----------------------------------------
+    Доступность сайта на компьютере.
+  requirement: |
+    Сайт должен быть доступен на компьютере.
+  prerequisites: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website Loaddy https://loaddy.com
+  test-data: |
+    Страница магазина https://hexlet-products-store.vercel.app
+  steps:
+    - Открыть страницу Loaddy https://loaddy.com
+    - Вставить в форму адрес магазина https://hexlet-products-store.vercel.app
+    - Нажать кнопку <Бесплатная проверка>
+  expected-result: |
+     Результаты теста должны быть в "зеленой" зоне.
+  status: pass
+  
+- summary: |
     ---------------------------------------- test-case # 12-1 ----------------------------------------
     Проверка отображения кнопки  <Cart> (<Корзина>) в двухъязычном варианте (русский и английский).
   requirement: |
