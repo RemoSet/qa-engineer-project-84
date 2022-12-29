@@ -89,6 +89,7 @@
     - Выбрать Device <Desktop> (<Mobile>)
     - Выбрать Categories <Performance>
     - нажать кнопку <Start timespan>
+    - нажать кнопку <End timespan>
   expected-result: |
     Производительность должна быть в "зеленой" зоне.
   status: pass  
