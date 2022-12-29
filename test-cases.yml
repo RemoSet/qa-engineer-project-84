@@ -74,20 +74,23 @@
     ---------------------------------------- test-case # 5-1 -----------------------------------------
     Оптимизация сайта для скорости работы на компьютере.
   requirement: |
-    Сайт должен быть разработан и оптимизирован для скорости работы на компьютере.
+    Сайт должен быть оптимизирован для скорости работы.
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website PageSpeed Insights https://pagespeed.web.dev
+    DevTools Google Chrome
   test-data: |
     Страница магазина https://hexlet-products-store.vercel.app
   steps:
-    - Открыть страницу PageSpeed Insights https://pagespeed.web.dev
-    - Вставить в форму адрес магазина https://hexlet-products-store.vercel.app
-    - Нажать кнопку <Анализировать>
-    - Перейти на вкладку <Компьютер>
+    - Открыть страницу магазина https://hexlet-products-store.vercel.app
+    - Запустить DevTools нажав F12
+    - Выбрать вкладку Lighthouse
+    - Выбрать Mode <Timespan> 
+    - Выбрать Device <Desktop> (<Mobile>)
+    - Выбрать Categories <Performance>
+    - нажать кнопку <Start timespan>
   expected-result: |
-    Производительность должна быть в "зеленой" зоне, не ниже 90 %.
+    Производительность должна быть в "зеленой" зоне.
   status: pass  
 
 - summary: |
@@ -103,7 +106,7 @@
     Страница магазина https://hexlet-products-store.vercel.app
   steps:
     - Открыть страницу магазина https://hexlet-products-store.vercel.app
-    - Запустить DevTools нажаd F12
+    - Запустить DevTools нажав F12
     - Выбрать вкладку Security
     - Ознакомиться с содержанием открытой вкладки
   expected-result: |
@@ -184,7 +187,7 @@
     Страница магазина https://hexlet-products-store.vercel.app
   steps:
     - Открыть страницу магазина https://hexlet-products-store.vercel.app
-    - Запустить DevTools нажаd F12
+    - Запустить DevTools нажав F12
     - Выбрать вкладку Lighthouse
     - Выбрать Mode <Navigation> 
     - Выбрать Device <Desktop> (<Mobile>)
