@@ -93,17 +93,25 @@
     ---------------------------------------- test-case # 6-1 -----------------------------------------
     Безопасное подключение сайта.
   requirement: |
-    Сайт должен иметь протокол подключения https в целях повышения безопасности.
+    Сайт должен быть безопасным.
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website страница магазина https://hexlet-products-store.vercel.app
+    DevTools Google Chrome
   test-data: |
     Страница магазина https://hexlet-products-store.vercel.app
   steps:
     - Открыть страницу магазина https://hexlet-products-store.vercel.app
+    - Запустить DevTools нажаd F12
+    - Выбрать вкладку Security
+    - Ознакомиться с содержанием открытой вкладки
   expected-result: |
-    Должна открыться страница магазина, в адресной строке должен быть протокол https
+    Вкладка должна содержать
+    This page is secure (valid HTTPS).
+    Certificate - valid and trusted
+    Connection - secure connection setting
+    Recources - all served securely
+    
   status: pass
   
 - summary: |
