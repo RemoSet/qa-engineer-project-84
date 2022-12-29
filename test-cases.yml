@@ -54,9 +54,9 @@
 
 - summary: |
     ---------------------------------------- test-case # 4-1 -----------------------------------------
-    Просмотр подробной информации о товаре.
+    Добавление товара в карзину.
   requirement: |
-    Пользователь должен иметь возможность просматривать подробную информацию о товаре.
+    Пользователь должен иметь возможность добавлять товары в корзину.
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
@@ -65,8 +65,9 @@
     Открыта страница магазина.
   steps:
     - Выбрать карточку товара.
+    -
   expected-result: |
-    Должна появится подробная информация о товаре.
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   status: pass  
   
 - summary: |
@@ -174,17 +175,21 @@
     ---------------------------------------- test-case # 10-1 ----------------------------------------
     Доступность сайта на компьютере.
   requirement: |
-    Сайт должен быть доступен на компьютере.
+    Сайт должен быть доступен на различных устройствах.
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website Loaddy https://loaddy.com
+    DevTools Google Chrome
   test-data: |
     Страница магазина https://hexlet-products-store.vercel.app
   steps:
-    - Открыть страницу Loaddy https://loaddy.com
-    - Вставить в форму адрес магазина https://hexlet-products-store.vercel.app
-    - Нажать кнопку <Бесплатная проверка>
+    - Открыть страницу магазина https://hexlet-products-store.vercel.app
+    - Запустить DevTools нажаd F12
+    - Выбрать вкладку Lighthouse
+    - Выбрать Mode <Navigation> 
+    - Выбрать Device <Desktop> (<Mobile>)
+    - Выбрать Categories <Accessibility>
+    - нажать кнопку <Analysze page load>
   expected-result: |
      Результаты теста должны быть в "зеленой" зоне.
   status: pass
