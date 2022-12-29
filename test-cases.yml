@@ -129,15 +129,18 @@
     Сайт должен быть совместим с последними версиями браузеров.
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
-    Web browser Google Chrome Версия 108.0.5359.100
+    Web browser Google Chrome Версия 108.0.5359.125 (64 бит)
+    Web browser Firefox Версия 108.0.1. (64-разрядная)
+    Web browser Microsoft Edge Версия 108.0.1462.54 (64 разрядная версия)
     Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Открыта страница магазина, открыта форма <Category> (<Категория>).
+    Страница магазина https://hexlet-products-store.vercel.app
   steps:
-    - Выбрать любой список категорий в открытой форме кнопками <Previous> (<Предыдущая>) и <Next> (<Следующая>).
-    - Выбрать категорию для поиска товара.
+    - Открыть страницу магазина в Google Chrome.
+    - Открыть страницу магазина в Firefox.
+    - Открыть страницу магазина в Microsoft Edge.
   expected-result: |
-    Должны появится карточки товаров.
+    Должны открыться страница магазина в каждом браузере.
   status: pass  
 
 - summary: |
