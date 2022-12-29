@@ -7,7 +7,7 @@
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website страница магазина https://hexlet-products-store.vercel.app/
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
     Открыта страница магазина, открыта форма <Category> (<Категория>).
   steps:
@@ -25,7 +25,7 @@
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website страница магазина https://hexlet-products-store.vercel.app/
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
     Открыта страница магазина.
   steps:
@@ -43,7 +43,7 @@
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website страница магазина https://hexlet-products-store.vercel.app/
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
     Открыта страница магазина.
   steps:
@@ -60,7 +60,7 @@
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website страница магазина https://hexlet-products-store.vercel.app/
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
     Открыта страница магазина.
   steps:
@@ -79,16 +79,33 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website PageSpeed Insights https://pagespeed.web.dev
   test-data: |
-    Страница магазина https://hexlet-products-store.vercel.app/
+    Страница магазина https://hexlet-products-store.vercel.app
   steps:
     - Открыть страницу PageSpeed Insights https://pagespeed.web.dev
-    - Вставить в форму адрес магазина https://hexlet-products-store.vercel.app/
+    - Вставить в форму адрес магазина https://hexlet-products-store.vercel.app
     - Нажать кнопку <Анализировать>
     - Перейти на вкладку <Компьютер>
   expected-result: |
     Производительность должна быть в "зеленой" зоне, не ниже 90 %.
   status: pass  
 
+- summary: |
+    ---------------------------------------- test-case # 6-1 -----------------------------------------
+    Защита данных пользователя.
+  requirement: |
+    Сайт должен защищать данные пользователя.
+  prerequisites: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website страница магазина https://hexlet-products-store.vercel.app
+  test-data: |
+    Страница магазина https://hexlet-products-store.vercel.app
+  steps:
+    - Открыть страницу магазина https://hexlet-products-store.vercel.app
+  expected-result: |
+    Должна появиться форма регистрации пользователя.
+  status: fail
+  
 - summary: |
     ---------------------------------------- test-case # 7-1 -----------------------------------------
     Мобильная версия сайта.
@@ -133,7 +150,7 @@
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website открыта страница магазина https://hexlet-products-store.vercel.app/
+    Website открыта страница магазина https://hexlet-products-store.vercel.app
   test-data: |
     Визуально сконцентрировать внимание на кнопке <Cart> (<Корзина>) .
   steps:
@@ -153,7 +170,7 @@
   requirement: |
     При выборе товара выбранный товар должен попасть в корзину.
   prerequisites: |
-    Открыта страница магазина https://hexlet-products-store.vercel.app/
+    Открыта страница магазина https://hexlet-products-store.vercel.app
   test-data: |
     Выбрать любой товар.
   steps:
@@ -170,7 +187,7 @@
   requirement: |
     При выборе товара выбранный товар должен попасть в корзину.
   prerequisites:
-    Открыта страница магазина https://hexlet-products-store.vercel.app/
+    Открыта страница магазина https://hexlet-products-store.vercel.app
   test-data: |
     Выбрать любой товар.
   steps:
