@@ -36,7 +36,7 @@
     Должна появится форма выбора цвета товара.
   actual-result: |
     Нет формы выбора цвета товара.
-  severity: trivial
+  severity: minor
   comment: Ошибка изображена на скриншоте /images/ID 2/scrin2.png
   
 - summary: |
@@ -51,7 +51,7 @@
     Должна запуститься мобильная версия сайта.
   actual-result: |
     Мобильная версия сайта не запускается.
-  severity: trivial
+  severity: major
   comment: Ошибка изображена на скриншоте /images/ID 3/scrin3.png
   
 - summary: |
@@ -70,7 +70,7 @@
   actual-result: |
     В корзине отображается "3".
     Единицы товара "шт." отображаются радом с артикулом товара.
-  severity: trivial
+  severity: major
   comment: Ошибка изображена на скриншоте /images/ID 4/scrin4.png
   
 - summary: |
