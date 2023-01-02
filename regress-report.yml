@@ -121,7 +121,7 @@ bugreports:
 - summary: |
     ----------------------------------------bugreport ID 6 -----------------------------------------
     
-    Невозможно выбрать товары по категории.
+    Не отображается кнопка "Next".
   environment: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
@@ -136,6 +136,6 @@ bugreports:
     Список должен пролистываться кнопкой "Next" ("Следующая").
   actual-result: |
     Кнопка "Next" ("Следующая") не отображается.
-  severity: major
+  severity: critical
   comment: Ошибка изображена на скриншоте /images/ID 6/scrin6.png
     
