@@ -65,4 +65,77 @@ bugreports:
       Кнопки имеют разный размер.
     severity: trivial
     comment: Ошибка изображена на скриншоте /images/ID 1/skrin1.
+    
+ - summary: |
+    ----------------------------------------bugreport ID 2 -----------------------------------------
+    
+    Отсутствует выбор товара по цвету.
+  environment: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website https://hexlet-products-store.vercel.app/
+  steps-to-reproduce: |
+    1 Выбрать Brand Huawei.
+    2 Выбрать карточку Huawei P30
+  expected-result: |
+    Должна появится форма выбора цвета товара.
+  actual-result: |
+    Нет формы выбора цвета товара.
+  severity: minor
+  comment: Ошибка изображена на скриншоте /images/ID 2/scrin2.png 
   
+- summary: |
+    ----------------------------------------bugreport ID 3 -----------------------------------------
+    Отсутствует мобильная версия сайта.  
+  environment: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+  steps-to-reproduce: |
+    1 Открыть страницу магазина https://m.hexlet-products-store.vercel.app
+  expected-result: |
+    Должна запуститься мобильная версия сайта.
+  actual-result: |
+    Мобильная версия сайта не запускается.
+  severity: major
+  comment: Ошибка изображена на скриншоте /images/ID 3/scrin3.png
+  
+- summary: |
+    ----------------------------------------bugreport ID 4 -----------------------------------------
+    
+    Еденицы товара "шт." в корзине не на своем месте.
+  environment: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website https://hexlet-products-store.vercel.app/
+  steps-to-reproduce: |
+    1 Выбрать любой товар .
+    2 Добавить товар в корзину 3 (три) раза.
+  expected-result: |
+    В корзине должно отобразиться "3 шт.".
+  actual-result: |
+    В корзине отображается "3".
+    Единицы товара "шт." отображаются радом с артикулом товара.
+  severity: major
+  comment: Ошибка изображена на скриншоте /images/ID 4/scrin4.png
+  
+- summary: |
+    ----------------------------------------bugreport ID 6 -----------------------------------------
+    
+    Невозможно выбрать товары по категории.
+  environment: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website https://hexlet-products-store.vercel.app/
+  steps-to-reproduce: |
+    1. Открыть страницу магазина.
+    2. Открыть список категорий.
+    3. Выбрать любую категорию из открывшегося списка.
+    4. Повторно открыть список категорий.
+    3. Кнопкой "Next" ("Слудующая") пролистать список категорий до конца.
+  expected-result: |
+    Список должен пролистываться кнопкой "Next" ("Следующая").
+  actual-result: |
+    Кнопка "Next" ("Следующая") не отображается.
+  severity: major
+  comment: Ошибка изображена на скриншоте /images/ID 6/scrin6.png
+    
