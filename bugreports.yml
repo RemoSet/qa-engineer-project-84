@@ -31,11 +31,27 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    - Выбрать Brand Huawei.
-    - Выбрать карточку Huawei P30
+    1 Выбрать Brand Huawei.
+    2 Выбрать карточку Huawei P30
   expected-result: |
     Должна появится форма выбора цвета товара.
   actual-result: |
     Нет формы выбора цвета товара.
   severity: trivial
   comment: /images/ID 2/scrin2
+  
+- summary: |
+    ----------------------------------------bugreport ID 3 -----------------------------------------
+    Мобильная версия сайта.  
+  environment: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+  steps-to-reproduce: |
+    1 Открыть страницу магазина https://m.hexlet-products-store.vercel.app
+  expected-result: |
+    Должна запуститься мобильная версия сайта.
+  actual-result: |
+    Мобильная версия сайта не запускается.
+  severity: trivial
+  comment: /images/ID 3/scrin3
+  
