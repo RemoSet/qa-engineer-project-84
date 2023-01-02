@@ -1,20 +1,19 @@
 ---
 - summary: |
     ---------------------------------------- test-case # 1 --------------------------------------------
-    Поиск товаров по категории.
+    Выбор товаров по категории.
   requirement: |
-    Пользователь должен иметь возможность искать товары по категории.
+    Пользователь должен иметь возможность выбирать товары по категории.
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Открыта страница магазина, открыта форма "Category" ("Категория").
+    Открыта страница магазина.
   steps:
-    - Выбрать любой список категорий в открытой форме кнопками "Previous" ("Предыдущая") и "Next" ("Следующая").
-    - Выбрать категорию для поиска товара.
+    - Выбрать категорию laptops.
   expected-result: |
-    Должны появится карточки товаров.
+    Должны появится карточки товаров соответствующие категории laptops.
   status: pass
   
 - summary: |
@@ -47,7 +46,7 @@
   test-data: |
     Открыта страница магазина.
   steps:
-    - Выбрать карточку товара.
+    - Выбрать любую карточку товара.
   expected-result: |
     Должна появится подробная информация о товаре.
   status: pass  
@@ -58,13 +57,16 @@
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину.
   prerequisites: |
-    Открыта страница магазина https://hexlet-products-store.vercel.app
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Выбрать любой товар.
+    Открыта страница магазина.
   steps:
-    - Под выбранным товаром нажимаем кнопку "Add to cart" ("В корзину") один раз.
-    - Для перехода в корзину нажимаем кнопку "Cart" ("Корзина") в верхнем меню сайта.
-    - Проверяем наличие выбранного товара в корзине.
+    - Выбрать любой товар.
+    - Под выбранным товаром нажать кнопку "Add to cart" ("В корзину") один раз.
+    - Для перехода в корзину нажать кнопку "Cart" ("Корзина") в верхнем меню сайта.
+    - Проверить наличие выбранного товара в корзине.
   expected-result: |
     Выбранный товар должен добавиться в корзину.
   status: pass
@@ -75,10 +77,13 @@
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину.
   prerequisites:
-    Открыта страница магазина https://hexlet-products-store.vercel.app
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Выбрать любой товар.
+    Открыта страница магазина.
   steps:
+    - Выбрать любой товар.
     - Нажимаем на иконку выбранного товара.
     - На страничке описания товара нажимаем кнопку "Add to cart" ("Корзина") один раз.
     - Для перехода в корзину нажимаем кнопку "Cart" ("Корзина") в верхнем меню сайта.
@@ -96,10 +101,10 @@
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     DevTools Google Chrome
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Страница магазина https://hexlet-products-store.vercel.app
+    Открыта страница магазина.
   steps:
-    - Открыть страницу магазина https://hexlet-products-store.vercel.app
     - Запустить DevTools нажав F12
     - Выбрать вкладку Security
     - Ознакомиться с содержанием открытой вкладки
@@ -157,10 +162,10 @@
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     DevTools Google Chrome
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Страница магазина https://hexlet-products-store.vercel.app
+    Открыта страница магазина.
   steps:
-    - Открыть страницу магазина https://hexlet-products-store.vercel.app
     - Запустить DevTools нажав F12
     - Выбрать вкладку "Lighthouse"
     - Выбрать Mode "Navigation"
@@ -179,9 +184,9 @@
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
-    Website открыта страница магазина https://hexlet-products-store.vercel.app
+    Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Визуально сконцентрировать внимание на кнопке "Cart" ("Корзина").
+    Открыта страница магазина.
   steps:
     - Включить режим веб-инспектора DevTools нажав клавишу F12.
     - В режиме Select выделить кнопку "Cart" ("Корзина").
