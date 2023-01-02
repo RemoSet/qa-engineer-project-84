@@ -20,7 +20,7 @@
   actual-result: |
     Кнопки имеют разный размер.
   severity: trivial
-  comment: Ошибка изображена на скриншоте /images/ID 1/skrin1.
+  comment: Ошибка изображена на скриншоте /images/ID 1/skrin1.png
   
 - summary: |
     ----------------------------------------bugreport ID 2 -----------------------------------------
@@ -38,7 +38,7 @@
   actual-result: |
     Нет формы выбора цвета товара.
   severity: trivial
-  comment: /images/ID 2/scrin2
+  comment: /images/ID 2/scrin2.png
   
 - summary: |
     ----------------------------------------bugreport ID 3 -----------------------------------------
@@ -53,5 +53,5 @@
   actual-result: |
     Мобильная версия сайта не запускается.
   severity: trivial
-  comment: /images/ID 3/scrin3
+  comment: /images/ID 3/scrin3.png
   
