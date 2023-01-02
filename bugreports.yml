@@ -24,7 +24,7 @@
 - summary: |
     ----------------------------------------bugreport ID 2 -----------------------------------------
     
-    Выбор товара по цвету.
+    Отсутствует выбор товара по цвету.
   environment: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
@@ -41,7 +41,7 @@
   
 - summary: |
     ----------------------------------------bugreport ID 3 -----------------------------------------
-    Мобильная версия сайта.  
+    Отсутствует мобильная версия сайта.  
   environment: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
@@ -54,3 +54,21 @@
   severity: trivial
   comment: /images/ID 3/scrin3.png
   
+- summary: |
+    ----------------------------------------bugreport ID 4 -----------------------------------------
+    
+    Еденицы товара "шт." в корзине не на своем месте.
+  environment: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website https://hexlet-products-store.vercel.app/
+  steps-to-reproduce: |
+    1 Выбрать любой товар .
+    2 Добавить товар в корзину 3 (три) раза.
+  expected-result: |
+    В корзине должно отобразиться "3 шт.".
+  actual-result: |
+    В корзине отображается "3".
+    Единицы товара "шт." отображаются радом с артикулом товара.
+  severity: trivial
+  comment: /images/ID 3/scrin4.png
