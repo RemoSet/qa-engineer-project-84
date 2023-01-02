@@ -37,7 +37,7 @@
   actual-result: |
     Нет формы выбора цвета товара.
   severity: trivial
-  comment: /images/ID 2/scrin2.png
+  comment: Ошибка изображена на скриншоте /images/ID 2/scrin2.png
   
 - summary: |
     ----------------------------------------bugreport ID 3 -----------------------------------------
@@ -52,7 +52,7 @@
   actual-result: |
     Мобильная версия сайта не запускается.
   severity: trivial
-  comment: /images/ID 3/scrin3.png
+  comment: Ошибка изображена на скриншоте /images/ID 3/scrin3.png
   
 - summary: |
     ----------------------------------------bugreport ID 4 -----------------------------------------
@@ -71,7 +71,7 @@
     В корзине отображается "3".
     Единицы товара "шт." отображаются радом с артикулом товара.
   severity: trivial
-  comment: /images/ID 4/scrin4.png
+  comment: Ошибка изображена на скриншоте /images/ID 4/scrin4.png
   
 - summary: |
     ----------------------------------------bugreport ID 5 -----------------------------------------
@@ -89,8 +89,8 @@
     Отступ слева отсутствует.
   severity: trivial
   comment: |
-    /images/ID 5/scrin5-1.png
-    /images/ID 5/scrin5-2.png (ошибка в атрибуте margin)
+    Ошибка изображена на скриншоте /images/ID 5/scrin5-1.png
+    Дополнительно (ошибка в атрибуте margin) /images/ID 5/scrin5-2.png
   
   
   
