@@ -66,23 +66,23 @@ bugreports:
     severity: trivial
     comment: Ошибка изображена на скриншоте /images/ID 1/skrin1.
     
- - summary: |
-    ----------------------------------------bugreport ID 2 -----------------------------------------
+  - summary: |
+      ----------------------------------------bugreport ID 2 -----------------------------------------
     
-    Отсутствует выбор товара по цвету.
-  environment: |
-    OS 22000.1219 Windows 11 Версия 21H2
-    Web browser Google Chrome Версия 108.0.5359.100
-    Website https://hexlet-products-store.vercel.app/
-  steps-to-reproduce: |
-    1 Выбрать Brand Huawei.
-    2 Выбрать карточку Huawei P30
-  expected-result: |
-    Должна появится форма выбора цвета товара.
-  actual-result: |
-    Нет формы выбора цвета товара.
-  severity: minor
-  comment: Ошибка изображена на скриншоте /images/ID 2/scrin2.png 
+      Отсутствует выбор товара по цвету.
+    environment: |
+      OS 22000.1219 Windows 11 Версия 21H2
+      Web browser Google Chrome Версия 108.0.5359.100
+      Website https://hexlet-products-store.vercel.app/
+    steps-to-reproduce: |
+      1. Выбрать Brand Huawei.
+      2. Выбрать карточку Huawei P30
+    expected-result: |
+      Должна появится форма выбора цвета товара.
+    actual-result: |
+      Нет формы выбора цвета товара.
+    severity: minor
+    comment: Ошибка изображена на скриншоте /images/ID 2/scrin2.png 
   
 - summary: |
     ----------------------------------------bugreport ID 3 -----------------------------------------
@@ -91,7 +91,7 @@ bugreports:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
   steps-to-reproduce: |
-    1 Открыть страницу магазина https://m.hexlet-products-store.vercel.app
+    1. Открыть страницу магазина https://m.hexlet-products-store.vercel.app
   expected-result: |
     Должна запуститься мобильная версия сайта.
   actual-result: |
@@ -108,8 +108,8 @@ bugreports:
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    1 Выбрать любой товар .
-    2 Добавить товар в корзину 3 (три) раза.
+    1. Выбрать любой товар .
+    2. Добавить товар в корзину 3 (три) раза.
   expected-result: |
     В корзине должно отобразиться "3 шт.".
   actual-result: |
