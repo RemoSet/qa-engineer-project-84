@@ -71,7 +71,7 @@ bugreports:
     
   - summary: |
       ----------------------------------------bugreport ID 7 -----------------------------------------
-      Не адаптивное отображение товара в Dekstop.
+      Не адаптивное отображение товара в Dekstop в breakpoint 992 px.
     environment: |
       OS 22000.1219 Windows 11 Версия 21H2
       Web browser Google Chrome Версия 108.0.5359.100
