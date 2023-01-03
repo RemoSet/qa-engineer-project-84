@@ -11,9 +11,9 @@
     1. Включить режим веб-инспектора DevTools нажав клавишу F12.
     2. В режиме Select выделить кнопку "Cart" ("Корзина").
     3. Оценить размер кнопки.
-    4. В верхнем меню перейти на другой язык
+    4. В верхнем меню сайта перейти на другой язык
     5. Оценить размер кнопки.
-    6. Сравнить размеры кнопки при разных языках.
+    6. Сравнить размеры кнопки в разных локалях.
   expected-result: |
     Кнопки должны иметь одинаковый размер.
   actual-result: |
@@ -46,7 +46,7 @@
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
   steps-to-reproduce: |
-    1 Открыть страницу магазина https://m.hexlet-products-store.vercel.app
+    1. Открыть страницу магазина https://m.hexlet-products-store.vercel.app
   expected-result: |
     Должна запуститься мобильная версия сайта.
   actual-result: |
@@ -63,8 +63,9 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    1 Выбрать любой товар .
-    2 Добавить товар в корзину 3 (три) раза.
+    1. Открыть страницу магазина https://m.hexlet-products-store.vercel.app
+    2. Выбрать любой товар .
+    3. Добавить товар в корзину 3 (три) раза.
   expected-result: |
     В корзине должно отобразиться "3 шт.".
   actual-result: |
@@ -82,7 +83,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    1 Открыть главную страничку магазина
+    1. Открыть главную страничку магазина
   expected-result: |
     Страничка должна иметь отспут слева, такой же как и справа.
   actual-result: |
