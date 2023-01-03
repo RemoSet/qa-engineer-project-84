@@ -93,5 +93,21 @@
     Ошибка изображена на скриншоте /images/ID 5/scrin5-1.png
     Дополнительно (ошибка в атрибуте margin) /images/ID 5/scrin5-2.png
   
-  
+- summary: |
+      ----------------------------------------bugreport ID 8 -----------------------------------------
+      Не адаптивное отображение товара в Dekstop в breakpoint 1200 px.
+    environment: |
+      OS 22000.1219 Windows 11 Версия 21H2
+      Web browser Google Chrome Версия 108.0.5359.100
+      Website https://hexlet-products-store.vercel.app/
+    steps-to-reproduce: |
+      1. Открыть страницу магазина.
+      2. Выбрать Brand "OPPO".
+      3. Растянуть окно страницы до размера больше 1200 px (breakpoint 1200 px)
+    expected-result: |
+      Изображение товара должно быть корректным при breakpoint 1200 px.
+    actual-result: |
+      Изображение не корректное.
+    severity: minor
+    comment: Ошибка изображена на скриншоте /images/ID 8/scrin8.png  
   
