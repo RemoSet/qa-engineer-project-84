@@ -190,7 +190,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website страница магазина https://hexlet-products-store.vercel.app
   test-data: |
-    Открыта страница магазина.
+    breakpoints 1200 px, 992 px, 768 px
   steps:
     - Открыть страницу магазина.
     - Выбрать Brand "OPPO".
