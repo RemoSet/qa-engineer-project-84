@@ -19,7 +19,7 @@
   actual-result: |
     Кнопки имеют разный размер.
   severity: trivial
-  comment: Ошибка изображена на скриншоте /images/ID 1/skrin1.png
+  comment: Ошибка изображена на скриншоте /images/ID 1/scrin1.png
   
 - summary: |
     ----------------------------------------bugreport ID 2 -----------------------------------------
@@ -52,7 +52,7 @@
   actual-result: |
     Мобильная версия сайта не запускается.
   severity: major
-  comment: Ошибка изображена на скриншоте /images/ID 3/scrin3.png
+  comment: Ошибка изображена на скриншоте /images/ID 3/scren3.png
   
 - summary: |
     ----------------------------------------bugreport ID 4 -----------------------------------------
