@@ -71,29 +71,6 @@
     Выбранный товар должен добавиться в корзину.
   
 - summary: |
-    ---------------------------------------- test-case # 5 --------------------------------------------
-    Безопасное подключение сайта.
-  requirement: |
-    Сайт должен быть безопасным.
-  prerequisites: |
-    OS 22000.1219 Windows 11 Версия 21H2
-    Web browser Google Chrome Версия 108.0.5359.100
-    DevTools Google Chrome
-    Website страница магазина https://hexlet-products-store.vercel.app
-  test-data: |
-    Открыта страница магазина.
-  steps:
-    - Запустить DevTools нажав F12
-    - Выбрать вкладку Security
-    - Ознакомиться с содержанием открытой вкладки
-  expected-result: |
-    Вкладка должна содержать
-    This page is secure (valid HTTPS).
-    Certificate - valid and trusted
-    Connection - secure connection setting
-    Recources - all served securely
-  
-- summary: |
     ---------------------------------------- test-case # 6 --------------------------------------------
     Мобильная версия сайта.
   requirement: |
