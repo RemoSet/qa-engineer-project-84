@@ -181,3 +181,27 @@ bugreports:
     Certificate - valid and trusted
     Connection - secure connection setting
     Recources - all served securely
+
+
+- summary: |
+    ---------------------------------------- test-case # 8 -------------------------------------------
+    Доступность сайта.
+  requirement: |
+    Сайт должен быть доступен на различных устройствах.
+  prerequisites: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    DevTools Google Chrome
+    Website страница магазина https://hexlet-products-store.vercel.app
+  test-data: |
+    Открыта страница магазина.
+  steps:
+    - Запустить DevTools нажав F12
+    - Выбрать вкладку "Lighthouse"
+    - Выбрать Mode "Navigation"
+    - Выбрать Categories "Accessibility"
+    - Выбрать Device "Desktop" и нажать кнопку "Analysze page load"
+    - Выбрать Device "Mobile" и нажать кнопку "Analysze page load"
+  expected-result: |
+     Результаты теста должны быть в "зеленой" зоне.
+  
