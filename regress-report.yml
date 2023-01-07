@@ -59,22 +59,4 @@ bugreports:
       Кнопка "Next" ("Следующая") не отображается.
     severity: critical
     comment: Ошибка изображена на скриншоте /images/ID 6/scrin6.png
-    
-  - summary: |
-      ----------------------------------------bugreport ID 7 -----------------------------------------
-      Не адаптивное отображение товара в Dekstop в breakpoint 992 px
-    environment: |
-      OS 22000.1219 Windows 11 Версия 21H2
-      Web browser Google Chrome Версия 108.0.5359.100
-      Website https://hexlet-products-store.vercel.app/
-    steps-to-reproduce: |
-      1. Открыть страницу магазина.
-      2. Выбрать Brand "OPPO".
-      3. Сжать - растянуть окно страницы до размера 992 px (breakpoint 992 px)
-    expected-result: |
-      Изображение товара должно быть корректным.
-    actual-result: |
-      Изображение не корректное.
-    severity: minor
-    comment: Ошибка изображена на скриншоте /images/ID 7/scrin7.png
-    
+ 
