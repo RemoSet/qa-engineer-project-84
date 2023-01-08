@@ -149,5 +149,5 @@
     - Открыть DevTools нажав Ctrl + Shift + I
     - Открыть Toggle device toolbar нажав Ctrl + Shift + M
     - Выбрать iPhone SE
-   expected-result: |
+  expected-result: |
     Товары должны корректно отображаться в мобильных форматах.
